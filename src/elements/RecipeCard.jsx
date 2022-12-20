@@ -13,7 +13,7 @@ const RecipeCard = ({recipe}) => {
         <div className={styles.recipe_card}>
             <div>
                 <div className={styles.recipe_img_container}>
-                    <img src={recipe.image.url} />
+                    <img src={recipe.image_url} />
 
                 </div>
                 <h3>{recipe.recipe_name}</h3>

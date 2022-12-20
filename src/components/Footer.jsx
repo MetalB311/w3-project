@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Header.module.css'
-import {ImFaceBook, ImInstagram, ImTwitter, ImGithub} from 'react-icons/im'
+import {ImFacebook, ImInstagram, ImTwitter, ImGithub} from 'react-icons/im'
 
 const Footer = () => {
     return (
@@ -10,7 +10,7 @@ const Footer = () => {
             <div className={styles.social_icons}>
                 <a href='https://www.devmountain.com' target='_blank'
                 className={styles.circle}>
-                    <ImFaceBook size='1.5em' color='#3f3f3f'/>
+                    <ImFacebook size='1.5em' color='#3f3f3f'/>
                 </a>
                 <a href='https://www.devmountain.com' target='_blank'
                 className={styles.circle}>
